@@ -1,0 +1,30 @@
+
+		body{
+			background-color: #f9f9f9;font-family: "Open Sans", arial, tahoma;
+			font-weight: normal;
+		}#mainMenu li.level0 a, #mainMenu li.level0 a span, #mainMenu li.level1 a, #mainMenu li.level1 a span, #mainMenu li.level2 a, #mainMenu li.level2 a span, #menu-collapse a.level0{font-family: "Lato", arial, tahoma;}
+				.nav-sub-menu li.level0 a, .nav-sub-menu li.level0 a span, .nav-sub-menu li.level1 a, .nav-sub-menu li.level1 a span, .nav-sub-menu li.level2 a, .nav-sub-menu li.level2 a span, #menu-button{font-family: "Lato", arial, tahoma;}
+				h1, .h1 , .page-title h1{font-family: "Lato", arial, tahoma;}
+				h2, .h2, .page-title h2{font-family: "Lato", arial, tahoma;}
+				h3, .h3, .page-title h3{font-family: "Lato", arial, tahoma;}
+				h4, .h4{font-family: "Lato", arial, tahoma;}
+				h5, .h5{font-family: "Lato", arial, tahoma;}
+				h6, .h6{font-family: "Lato", arial, tahoma;}
+				.btn , .product-label{font-family: "Lato", arial, tahoma;}
+				.price, .price-box .price{font-family: "Lato", arial, tahoma;}
+				header nav ul.nav-main li.active > a.level0::before,
+header nav ul.nav-main li > a.level0::before{
+background-color:#252525;
+}
+header nav ul.nav-main li.dropdown > a.level0:after{
+background-color:#5d5d5d;
+}
+.block-cart-header .fa-shopping-cart{color:#6a6a6a;}
+.block-cart-header:hover .fa-shopping-cart{color:#252525;}
+.block-cart-header:hover .count{
+background-color: #b18ade;
+color:#fff;
+}
+.header-v1.position-abs{position:relative;}
+.btn-responsive-nav{color:#6a6a6a;}
+.btn-responsive-nav:hover{color:#252525;}

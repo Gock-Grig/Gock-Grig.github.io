@@ -1,0 +1,74 @@
+/* DREAMGROUP */
+
+.form-flex-container {display: flex; width: 100%;}
+.form-flex-child{display: flex; flex: 1; align-items: center; justify-content: center;}
+
+.newsletter-popup-subscribe-block { display:none;position:fixed;bottom:0; left:0; z-index:999;width:100%;padding:10px 0;color:#fff;background-color:#f2f3f4; }
+.newsletter-popup-subscribe-block p {padding:0; margin:0; }
+.dg-subscribe > h3 { font-family: 'Playfair Display'!important; text-align: center; font-size: 36px!important; margin-top: 0px; color: #000!important; font-style: italic; }
+.dg-subscribe > p { text-align: center; font-size: 18px!important; color: #000!important; }
+
+.newsletter-popup-subscribe-block .page-section { position:relative; max-width:1250px !important; margin:0 auto !important; }
+.newsletter-popup-subscribe-block .page-section .page-width{ width:100%; padding:0; margin:0;}
+
+.newsletter-popup-subscribe-block .subscribe-holder { }
+.newsletter-popup-subscribe-block .subscribe-holder .dg-subscribe-m { display:none }
+.newsletter-popup-subscribe-block .subscribe-holder p { font-weight:300; line-height:normal; font-size: 20px;}
+.newsletter-popup-subscribe-block .subscribe-holder p b { font-weight:600; font-size: 20px;}
+
+.newsletter-popup-subscribe-block .subscribe-form { }
+.newsletter-popup-subscribe-block .subscribe-form form .form-div-wrapper { background:rgba(0,0,0,0); padding: 10px 15px;}
+.newsletter-popup-subscribe-block .subscribe-form form input[type=email] { margin-bottom:0;min-width:250px;margin-left:5px;padding:0 5px; height:40px; border:none; background-color: transparent; border-bottom: 2px solid #000; }
+input[type=email],input[type=text],select { -webkit-appearance:none}
+.newsletter-popup-subscribe-block .subscribe-form form input[type=submit] { margin-bottom:0;min-width:130px;margin-left:5px;padding:0 30px; height:40px; border:none; font-weight:bold; text-transform:uppercase; line-height:40px; background-color: #000; }
+
+.newsletter-popup-subscribe-block .subscribe-form form ::-webkit-input-placeholder { color:#fff;opacity:1;font-weight:700;font-size:14px}
+.newsletter-popup-subscribe-block .subscribe-form form :-moz-placeholder{color:#fff;opacity:1;font-weight:700;font-size:14px}
+.newsletter-popup-subscribe-block .subscribe-form form :-ms-input-placeholder{color:#fff;opacity:1;font-weight:700;font-size:14px}
+.newsletter-popup-subscribe-block .subscribe-form form .input-has-icon .icon{fill:#fff;opacity:1}
+.newsletter-popup-subscribe-block .subscribe-form form label{display:none}
+.newsletter-popup-subscribe-block .subscribe-form form .hs-error-msgs{position:absolute;margin-top:0}
+.newsletter-popup-subscribe-block .subscribe-form form .hs-error-msgs label{display:inline-block;width:100%}
+
+.newsletter-popup-subscribe-block .subscribe-form form .newsletter_privacy_check { text-align: left; font-size: 10px; font-style: italic; line-height: 15px; margin-top: 15px;}
+.newsletter-popup-subscribe-block .subscribe-form form .newsletter_privacy_check, .newsletter-popup-subscribe-block .subscribe-form form .newsletter_privacy_check a { color: #000!important; }
+.newsletter-popup-subscribe-block .subscribe-form form .newsletter_privacy_check input[type=radio] { margin-right:5px; margin-top: 0px; }
+.newsletter-popup-subscribe-block .subscribe-form form .newsletter_privacy_check a { color:#fff; font-weight: bold}
+	
+
+.newsletter-popup-subscribe-block .icon-close{fill:rgba(255,255,255,.6);position:absolute;top:15px;right:30px;width:19px;height:19px}
+.newsletter-popup-subscribe-block .close-subscription { position:absolute; left: 15%; top:-20px; color:#FFF;}
+.newsletter-popup-subscribe-block .close-subscription a { color:#FFF; line-height:normal; font-weight:300; font-size:20px; background-color: #000!important;
+border-radius: 50%; padding: 3px; }
+.newsletter-popup-subscribe-block .close-subscription a img { vertical-align: middle}
+.chiudi-newsletter-popup { padding-left: 5px}
+
+
+@media only screen and (max-width:985px){
+	.newsletter-popup-subscribe-block { padding-top:20px;}
+	.newsletter-popup-subscribe-block .form-flex-container {display: flex; flex-direction: column}
+	
+	.newsletter-popup-subscribe-block .subscribe-holder p {font-size: 20px;}
+	.newsletter-popup-subscribe-block .subscribe-holder p b {font-size: 25px;}
+	
+	.newsletter-popup-subscribe-block .close-subscription .form-flex-container {flex-direction: row !important}
+	.newsletter-popup-subscribe-block .subscribe-form .form-flex-container {flex-direction: row !important}
+	.newsletter-popup-subscribe-block .subscribe-holder{ width:100%; text-align:center; margin-bottom:0px;}
+	.newsletter-popup-subscribe-block .subscribe-form { width:100%;}
+	.newsletter-popup-subscribe-block .subscribe-form form {  margin: 0 auto;  position: relative;  width: 350px; display:block}
+	
+	.newsletter-popup-subscribe-block .close-subscription a {font-size:15px;}
+	.newsletter-popup-subscribe-block .close-subscription { left: 5%!important; }
+	
+	.dg-subscribe { padding: 0px 10px!important; }
+	.dg-subscribe > h3 { font-size: 20px!important; }
+	.dg-subscribe > p { font-size: 13px!important; }
+	
+	.newsletter-popup-subscribe-block .subscribe-form form .form-div-wrapper { padding: 15px 0px!important; }
+	.newsletter-popup-subscribe-block .subscribe-form form input[type=email] { min-width: 180px!important; }
+	.newsletter-popup-subscribe-block .subscribe-form form input[type=submit] { min-width: 120px!important; }
+
+}
+
+
+
