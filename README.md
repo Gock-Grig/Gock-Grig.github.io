@@ -1,1 +1,1 @@
-# Gock-Grig.github.io
+# GockGrig.github.io
